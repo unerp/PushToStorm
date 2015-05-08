@@ -49,7 +49,7 @@ public class MySpout extends BaseRichSpout {
 		
 		try {
 			
-			socket = new SocketIO("http://172.16.160.133:8686");
+			socket = new SocketIO("http://localhost");
 			socket.connect(new IOCallback() {
 				@Override
 				public void onMessage(JSONObject json, IOAcknowledge ack) {
