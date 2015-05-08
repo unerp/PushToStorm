@@ -15,7 +15,7 @@ import com.storm.spout.MySpout;
 
 public class VertxToStorm {
 	
-	public static final String topologyName = "VertxToStorm";
+	public static final String topologyName = "VertxToStorm"; 
 	
 	public static ConnectionFactory factory = null;
 	public static QueueingConsumer consumer = null;
